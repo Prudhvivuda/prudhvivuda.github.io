@@ -16,7 +16,7 @@ const Projects = () => {
         "BLEU score",
         "PyTest"
       ],
-      githubUrl: "https://github.com/Prudhvivuda/rag-system"
+      githubUrl: "https://github.com/Prudhvivuda/rag-for-document-text"
     },
     {
       title: "Audio Deepfake Detection",
@@ -31,7 +31,7 @@ const Projects = () => {
         "TensorFlow/Keras",
         "PyTorch"
       ],
-      githubUrl: "https://github.com/Prudhvivuda/audio-deepfake-detection"
+      githubUrl: "https://github.com/Prudhvivuda/AudioDeepfakeDetection"
     },
     {
       title: "Music Recommender System",
@@ -43,7 +43,7 @@ const Projects = () => {
         "k Nearest Neighbors", 
         "Data Processing"
       ],
-      githubUrl: "https://github.com/Prudhvivuda/music-recommender"
+      githubUrl: "https://github.com/Prudhvivuda/music-recommender-system"
     },
     {
       title: "Rail Track Foreign Object Detection",
@@ -56,7 +56,7 @@ const Projects = () => {
         "Anomaly Detection (Autoencoder)",
         "Mean Intersection over Union (mIoU)"
       ],
-      githubUrl: "https://github.com/Prudhvivuda/rail-track-detection"
+      githubUrl: "https://github.com/Prudhvivuda/rt-fods"
     },
     {
       title: "Q&A Chatbot using Gemini Pro LLM",
@@ -66,16 +66,15 @@ const Projects = () => {
         "Python",
         "Streamlit",
         "genai",
-        "dotenv",
         "Google GenerativeAI",
         "Gemini Pro LLM"
       ],
-      githubUrl: "https://github.com/Prudhvivuda/gemini-chatbot"
+      githubUrl: "https://github.com/Prudhvivuda/gemini-pro-model"
     },
     {
       title: "Breast Cancer Prediction Using Deep Learning",
       period: "Jan 2022 - May 2022",
-      description: "Authored a paper in JCRS, presenting a comparative analysis of ML algorithms & identified the optimal algorithm, Artificial Neural Network (ANN) with Adam optimizer, achieving 98% accuracy in predicting breast cancer.",
+      description: "Authored a paper in JOICS, presenting a comparative analysis of ML algorithms & identified the optimal algorithm, Artificial Neural Network (ANN) with Adam optimizer, achieving 98% accuracy in predicting breast cancer.",
       technologies: [
         "Deep Learning",
         "Optimizers",
@@ -84,7 +83,7 @@ const Projects = () => {
         "HTML",
         "Research Methodology"
       ],
-      githubUrl: "https://github.com/Prudhvivuda/breast-cancer-prediction"
+      githubUrl: "https://github.com/Prudhvivuda/breast-cancer-prediction-using-deeplearning"
     }
   ];
 
