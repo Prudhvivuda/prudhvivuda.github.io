@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { Github, Linkedin, Mail, Phone, Send } from "lucide-react";
+import { Github, Instagram, Linkedin, Mail, Phone, Send, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -128,15 +128,30 @@ const Contact = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="bg-primary/10 p-3 rounded-full text-primary">
-                    <Phone size={20} />
+                    <Instagram size={20} />
                   </div>
                   <div>
-                    <h4 className="font-medium mb-1">Phone</h4>
+                    <h4 className="font-medium mb-1">Instagram</h4>
                     <a 
-                      href="tel:+18573768512" 
+                      href="https://www.instagram.com/prudhvi.vuda_/" 
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      +1 (857) 376-8512
+                       prudhvi.vuda_
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="bg-primary/10 p-3 rounded-full text-primary">
+                    <Twitter size={20} />
+                  </div>
+                  <div>
+                    <h4 className="font-medium mb-1">Twitter</h4>
+                    <a 
+                      href="https://x.com/VudaPrudhvi" 
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                       VudaPrudhvi
                     </a>
                   </div>
                 </div>
@@ -153,7 +168,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      linkedin.com/in/Prudhvivuda
+                      Prudhvivuda
                     </a>
                   </div>
                 </div>
@@ -170,7 +185,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      github.com/Prudhvivuda
+                      Prudhvivuda
                     </a>
                   </div>
                 </div>

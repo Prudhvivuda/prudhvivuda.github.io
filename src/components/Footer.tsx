@@ -1,5 +1,5 @@
 
-import { ArrowUpIcon, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowUpIcon, Github, Instagram, Linkedin, Mail, Twitter } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -34,6 +34,24 @@ const Footer = () => {
               aria-label="GitHub profile"
             >
               <Github size={24} />
+            </a>
+            <a 
+              href=" https://www.instagram.com/prudhvi.vuda_/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-foreground/70 hover:text-primary transition-colors"
+              aria-label="Instagram profile"
+            >
+              <Instagram size={24} />
+            </a>
+            <a 
+              href="https://x.com/VudaPrudhvi" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-foreground/70 hover:text-primary transition-colors"
+              aria-label="Twitter profile"
+            >
+              <Twitter size={24} />
             </a>
             <a 
               href="mailto:prudhvi12042001@gmail.com" 
