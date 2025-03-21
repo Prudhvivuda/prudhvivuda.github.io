@@ -94,7 +94,7 @@ const Experience = () => {
           </div>
 
           {/* Experience content on the right side */}
-          <div className="lg:w-2/3 glass-card p-6">
+          <div className="mt-28 lg:mt-0 lg:w-2/3 glass-card p-6">
             {experiences.map((exp) => (
               <div 
                 key={exp.id} 
