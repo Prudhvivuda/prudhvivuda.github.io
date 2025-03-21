@@ -64,13 +64,13 @@ const Experience = () => {
         </div>
         <h2 className="section-title">Work History</h2>
         <p className="section-subtitle mb-16">
-          My professional journey includes roles in research, teaching, and industry, where I've applied 
-          machine learning and software development skills to solve real-world problems.
+          My professional journey includes roles in research, teaching, and industry, where I've applied software development and machine learning skills to solve real-world problems.
         </p>
 
         <div className="flex flex-col lg:flex-row gap-8 w-full max-w-6xl mx-auto mt-8">
-          {/* Company tabs on the left side - Fixed width to prevent overlapping */}
-          <div className="lg:w-1/3 min-w-[250px]">
+
+          {/* Company tabs on the left side - Fixed width to prevent overlapping className="lg:w-1/3 min-w-[250px]" */}
+          <div className="mt-28">
             <Tabs 
               value={activeTab} 
               onValueChange={setActiveTab}
@@ -131,3 +131,4 @@ const Experience = () => {
 };
 
 export default Experience;
+

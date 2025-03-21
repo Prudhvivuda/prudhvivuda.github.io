@@ -1,5 +1,5 @@
 
-import { ArrowDownIcon, GithubIcon, LinkedinIcon, Mail } from "lucide-react";
+import { ArrowDownIcon, GithubIcon, LinkedinIcon, TwitterIcon, Mail, InstagramIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
@@ -60,6 +60,24 @@ const HeroSection = () => {
               aria-label="GitHub profile"
             >
               <GithubIcon size={24} />
+            </a>
+            <a 
+              href="https://x.com/VudaPrudhvi" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-foreground/80 hover:text-primary transition-colors"
+              aria-label="Twitter profile"
+            >
+              <TwitterIcon size={24} />
+            </a>
+            <a 
+              href=" https://www.instagram.com/prudhvi.vuda_/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-foreground/80 hover:text-primary transition-colors"
+              aria-label="Twitter profile"
+            >
+              <InstagramIcon size={24} />
             </a>
             <a 
               href="mailto:prudhvi12042001@gmail.com" 
