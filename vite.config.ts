@@ -29,7 +29,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? "/prudhvivuda.github.io/" : "/",  // Dynamic base
+  base: mode === "production" ? "/" : "/",  // Dynamic base
   server: {
     host: "::",
     port: 8080,
