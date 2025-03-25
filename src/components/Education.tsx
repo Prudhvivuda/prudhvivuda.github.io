@@ -25,7 +25,30 @@ const Education = () => {
       location: "Visakhapatnam, India",
       gpa: "9.33/10.0",
       period: "Jun 2018 - May 2022",
-      courses: []
+      courses: [
+        "Engineering Mathematics",
+        "Discrete Mathematics",
+        "Statistics and R Programming",
+        "Computer Networks",
+        "Crypto and Network Security",
+        "Operating Systems",
+        "Formal Languages and Automata Theory",
+        "Compiler Design",
+        "Data Mining",
+        "Unified Object Modeling Language",
+        "Cloud Computing",
+        "Programming Languages",
+        "Web Technologies",
+        "Database Management Systems",
+        "Data Structures and Algorithms",
+        "Object-Oriented Programming",
+        "Computer Organization and Architecture",
+        "Digital Logic Design",
+        "Software Engineering",
+        "Big Data Analytics",
+        "Machine Learning",
+        "Foundations of AI",
+      ]
     }
   ];
 
