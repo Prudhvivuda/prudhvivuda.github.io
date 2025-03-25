@@ -11,6 +11,7 @@ const Skills = () => {
         { name: "Java" },
         { name: "C/C++" },
         { name: "JavaScript" },
+        { name: "TypeScript" },
         { name: "SQL" },
         { name: "Apache Spark" },
         { name: "ETL" },
