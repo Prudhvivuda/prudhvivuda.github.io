@@ -84,7 +84,7 @@ const Experience = () => {
         <div className="flex flex-col lg:flex-row gap-8 w-full max-w-6xl mx-auto mt-8">
 
           {/* Company tabs on the left side - Fixed width to prevent overlapping className="lg:w-1/3 min-w-[250px]" */}
-          <div className="mt-28">
+          <div className="mt-36">
             <Tabs 
               value={activeTab} 
               onValueChange={setActiveTab}
@@ -108,7 +108,7 @@ const Experience = () => {
           </div>
 
           {/* Experience content on the right side */}
-          <div className="mt-28 lg:mt-0 lg:w-2/3 glass-card p-6">
+          <div className="mt-36 lg:mt-0 lg:w-2/3 glass-card p-6">
             {experiences.map((exp) => (
               <div 
                 key={exp.id} 
