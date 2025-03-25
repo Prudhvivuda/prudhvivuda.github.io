@@ -8,8 +8,10 @@ const Skills = () => {
       title: "Programming & Data Engineering",
       skills: [
         { name: "Python" },
-        { name: "SQL" },
+        { name: "Java" },
+        { name: "C/C++" },
         { name: "JavaScript" },
+        { name: "SQL" },
         { name: "Apache Spark" },
         { name: "ETL" },
         { name: "MySQL" },
@@ -23,7 +25,6 @@ const Skills = () => {
         { name: "Hypothesis Testing" },
         { name: "A/B Testing" },
         { name: "Statistical Analysis" },
-        { name: "FAISS" },
         { name: "Data Wrangling" },
         { name: "Data Integration" },
       ]
@@ -62,6 +63,7 @@ const Skills = () => {
         { name: "Kubernetes" },
         { name: "AWS" },
         { name: "GCP" },
+        { name: "FAISS" },
       ]
     },
   ];

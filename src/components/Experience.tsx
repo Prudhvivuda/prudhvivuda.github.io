@@ -25,7 +25,9 @@ const Experience = () => {
       location: "Boston, MA",
       period: "Jan 2025 - Present",
       responsibilities: [
-        "Teaching, developing assignments, evaluating and grading students' assignments, conducting office hours for the course DS 3000 Foundations of Data Science."
+        "Assisted students in mastering core concepts of Python, Data Analytics and Data Science, fostering a deep understanding of computational problem-solving techniques.",
+        "Evaluated and graded assignments and projects for a class of 300 students, ensuring adherence to academic standards and providing constructive feedback.",
+        "Conducted one-on-one sessions to clarify doubts, debug code, and review algorithmic solutions, enhancing the learning experience for students."
       ]
     },
     {
@@ -51,7 +53,19 @@ const Experience = () => {
         "Designed a Workflow Management System (Django, ReactJS, MaterialUI, Postgres) on EC2, automating banking, ML, and backend integrations to streamline operations.",
         "Developed a Growth & Ads Management System with data pipelines, delivering hourly insights on signups, enrolls, and ad performance (Meta, Google Ads) for data-driven decisions.",
         "Automated operations and compliance tasks, saving 33 hours daily (Stripe payments, reconciliation), improving efficiency and reducing errors.",
+        "Designed test automation suites for Payment and Credit systems using PyTest, ensuring robustness and ACID properties by validating transactions and money flow across accounts during payments.",
         "Led production releases, code reviews, issue resolution, mentored 8 juniors, and organized team events."
+      ]
+    },
+    {
+      id: "techuva-solutions",
+      company: "Techuva Solutions",
+      title: "Software Engineer",
+      location: "Hyderabad, India",
+      period: "Aug 2022 - Nov 2022",
+      responsibilities: [
+        "Developed a backend application called Knowledge Base using Python and Flask consisting of 24 Rest APIs which serves multiple requests for the patient's medical data which are calculated from the data obtained through physical tests taken.",
+        "Developed GitOps solutions to raise PRs and merge them to various branches like dev, staging, prod for the deployment of the application during the development and release cycles.",
       ]
     }
   ];
