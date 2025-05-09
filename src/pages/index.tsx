@@ -48,8 +48,8 @@ const Index = () => {
         <HeroSection />
         <About />
         <Experience />
-        <Skills />
         <Projects />
+        <Skills />
         <Education />
         <Contact />
       </main>

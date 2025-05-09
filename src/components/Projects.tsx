@@ -6,6 +6,20 @@ import { Button } from "@/components/ui/button";
 const Projects = () => {
   const projects = [
     {
+      title: "AI Powered Travel Itinerary Planner",
+      period: "May 2025", 
+      description: "Developed a multi-agent travel itinerary planner that leverages LangGraph to orchestrate a conversational workflow for generating personalized day trip itineraries. It user inputs for the desired city and interests, and employs an LLM to create a structured daily schedule. A user-friendly Gradio interface is implemented to facilitate interactive user input and display the generated itinerary.",
+      technologies: [
+        "Python",
+        "Agentic AI",
+        "LangChain", 
+        "LangGraph",
+        "LLM (Llama 3)", 
+        "Gradio"   
+      ],
+      githubUrl: "https://github.com/Prudhvivuda/multi-agent-travel-itinerary-planner" 
+    },
+    {
       title: "RAG system to answer questions based on a collection of documents",
       period: "Oct 2024",
       description: "Developed a BE system that supports Retrieval-Augmented Generation using Ollama with Mistral 7B, and FastAPI to answer questions based on a corpus.",

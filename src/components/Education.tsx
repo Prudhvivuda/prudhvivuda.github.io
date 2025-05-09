@@ -9,7 +9,7 @@ const Education = () => {
       degree: "Master of Science in Data Science",
       location: "Boston, MA",
       gpa: "3.8/4",
-      period: "Apr 2025",
+      period: "Sep 2023 - Apr 2025",
       courses: [
         "Supervised and Unsupervised Machine Learning",
         "Generative AI",
